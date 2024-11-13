@@ -8,7 +8,7 @@ const App = () => {
  const counter = useSelector((store) => store.counter);
  const dispatch = useDispatch();
  const handleIncrement = () =>{
-  dispatch(addFunction(1));
+  dispatch(addFunction(2));
  }
  const handleDecrement = () =>{
   dispatch(subFunction(1));
